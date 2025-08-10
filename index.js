@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3003;
+const port = 8083;
 const bodyParser = require('body-parser');
 const dbConnection = require('./config/db');
 dbConnection();
