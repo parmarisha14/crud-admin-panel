@@ -30,14 +30,17 @@ Admins can add new books, view all books in a table format, update existing reco
 Book-Admin-Panel/
 │
 ├── docs/ # Documentation files
----
+
 │ └── documentation.md
 ---
 ├── models/ # Mongoose schemas
 │ └── bookSchema.js
+---
 ├── public/ # Static assets (CSS, JS, images)
 ├── routes/ # Route handling
 │ └── bookRoutes.js
+  |___index.js
+---
 ├── views/ # EJS templates
 │ ├── index.ejs
 │ ├── pages/
